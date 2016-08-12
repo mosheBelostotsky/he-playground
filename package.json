@@ -1,0 +1,22 @@
+{
+  "name": "he-playground",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Ricardo Quintana <ricardo.quintana@hpe.com>",
+  "description": "Playground bot from my ubuntu machine",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "hubot": "^2.19.0",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-enterprise": "github:eedevops/hubot-enterprise",
+    "hubot-help": "^0.2.0",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-scripts": "^2.17.2",
+    "hubot-slack": "^4.0.1",
+    "jfs": "^0.2.6",
+    "querystring": "^0.2.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
