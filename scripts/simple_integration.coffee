@@ -1,6 +1,8 @@
 # Sample integration listeners that showcase how to protect
 # a listener with the authenticaiton service.
+
 module.exports = (robot) ->
+
 
   # To register a listener as an authenticated listener just use
   # the opts / metadata argument. If nothing is passed, then it is not protected.
@@ -13,7 +15,8 @@ module.exports = (robot) ->
 
   # TODO: This mechanism is easily expanded also for authorization of users to a particular
   # integration command.
-  robot.respond /myintegration foo/, auth: { protected: true }, (res) ->
+
+  robot.respond /myintegration foo/, he: { auth: { protected: true } }, (res) ->
       # robot.logger.info res
       res.send "You are authenticated!"
 
